@@ -1,0 +1,32 @@
+.nav-wrapper h5 {
+    display: inline-block;
+    margin: 0;
+}
+.nav-wrapper .to-favorite-news i {
+    margin-right: 0;
+}
+body > .container {
+    position: relative;
+}
+.container.error {
+    position: absolute;
+    top: 20%;
+    max-width: 500px;
+    left: 0;
+    right: 0;
+}
+.card-action .register span {
+    padding: 0 15px;
+    line-height: 36px;
+}
+.news-control {
+    padding-top: 20px;
+}
+.container.message {
+    position: fixed;
+    top: 20%;
+    max-width: 500px;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
